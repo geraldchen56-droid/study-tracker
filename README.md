@@ -15,8 +15,6 @@ A study tracker for the IB Diploma. It keeps everything for my six subjects in o
 
 Designed and built by **Gerald Chen**, who owns the project and its code.
 
-Claude (Anthropic) helped move the existing app onto Vercel: it adapted the hosting and database setup. It did not design or write the app.
-
 ## Running it
 
 - Hosting: Vercel, deployed automatically from `main`
