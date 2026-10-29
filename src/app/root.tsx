@@ -461,6 +461,13 @@ export function Layout({ children }: { children: ReactNode }) {
         <script type="module" src="/src/__create/dev-error-overlay.js"></script>
         <link rel="icon" href="/src/__create/favicon.png" />
         {LoadFontsSSR ? <LoadFontsSSR /> : null}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              'window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};',
+          }}
+        />
+        <script defer src="/_vercel/insights/script.js"></script>
       </head>
       <body>
         <ClientOnly loader={() => children} />
